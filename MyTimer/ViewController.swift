@@ -49,6 +49,10 @@ class ViewController: UIViewController {
     }
     
     @IBAction func startButtonAction(_ sender: Any) {
+        
+        let urlSessionGetClient = URLSessionGetClient()
+        let queryItems = [URLQueryItem(name: "city", value: "130010")]
+        urlSessionGetClient.get(url: "http://weather.livedoor.com/forecast/webservice/json/v1", queryItems: queryItems)
         //timerをアンラップしてnowTimerに代入
         if let nowTimer = timer{
             //もしタイマーが、実行中だったらスタートしない

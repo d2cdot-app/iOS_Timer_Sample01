@@ -13,6 +13,7 @@
 		554A223E21902D2700909C4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 554A223D21902D2700909C4A /* Assets.xcassets */; };
 		554A224121902D2700909C4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 554A223F21902D2700909C4A /* LaunchScreen.storyboard */; };
 		554A22492190310F00909C4A /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554A22482190310F00909C4A /* SettingViewController.swift */; };
+		55A817D421916F5800ADF205 /* URLSessionGetClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A817D321916F5800ADF205 /* URLSessionGetClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		554A224021902D2700909C4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		554A224221902D2700909C4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		554A22482190310F00909C4A /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		55A817D321916F5800ADF205 /* URLSessionGetClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionGetClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +42,7 @@
 		554A222A21902D2600909C4A = {
 			isa = PBXGroup;
 			children = (
+				55A817D321916F5800ADF205 /* URLSessionGetClient.swift */,
 				554A223521902D2600909C4A /* MyTimer */,
 				554A223421902D2600909C4A /* Products */,
 			);
@@ -140,6 +143,7 @@
 			files = (
 				554A223921902D2600909C4A /* ViewController.swift in Sources */,
 				554A223721902D2600909C4A /* AppDelegate.swift in Sources */,
+				55A817D421916F5800ADF205 /* URLSessionGetClient.swift in Sources */,
 				554A22492190310F00909C4A /* SettingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
